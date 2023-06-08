@@ -27,7 +27,7 @@ export default function Navbar() {
   }
 
   return (
-    <aside className="flex flex-col md:flex-row md:flex-shrink-0 md:pl-3 md:mx-0 font-serif">
+    <aside className="flex flex-col md:flex-row md:flex-shrink-0 md:pl-3 md:mx-0 lg:ml-16 font-serif">
       <div className="lg:sticky lg:top-20">
         <LayoutGroup>
           <nav
