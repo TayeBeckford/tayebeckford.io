@@ -49,17 +49,6 @@ export default function Navbar() {
                     )}>
                     <span className="relative text-lg px-[10px] md:px-0 py-[10px]">
                       {name}
-                      {/* {path === pathname ? (
-                        <motion.div
-                          className="absolute inset-0 bg-neutral-100 dark:bg-neutral-800 rounded-md z-[-1]"
-                          layoutId="sidebar"
-                          transition={{
-                            type: "spring",
-                            stiffness: 350,
-                            damping: 30,
-                          }}
-                        />
-                      ) : null} */}
                     </span>
                   </Link>
                 );
