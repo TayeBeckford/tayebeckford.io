@@ -9,7 +9,13 @@ export async function generateStaticParams() {
   }));
 }
 
-export default async function Blog({ params }) {
+interface BlogProps {
+  params: {
+    slug: string;
+  };
+}
+
+export default async function Blog({ params }: BlogProps) {
   const post = allBlogs.find((post) => post.slug === params.slug);
 
   if (!post) {
