@@ -11,14 +11,14 @@ export default function Home() {
           rel="noopener noreferrer"
           target="_blank"
           href="https://github.com/TayeBeckford"
-          className="flex items-center gap-2 mx-8">
+          className="flex items-center mx-8">
           <GitHubIcon />
         </a>
         <a
           rel="noopener noreferrer"
           target="_blank"
           href="mailto:tayebeckford@icloud.com"
-          className="flex items-center gap-2">
+          className="flex items-center">
           <MailIcon />
         </a>
       </div>
